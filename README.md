@@ -2,7 +2,7 @@
 [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Video Walkthrough
-![Generator Demo](/walk-through/Untitled_ Feb 21, 2021 1_40 PM.gif)
+![Generator Demo](Readme-generator/walk-through/Untitled_ Feb 21, 2021 1_40 PM.gif)
 
 ## Description
 Generate readme.md files

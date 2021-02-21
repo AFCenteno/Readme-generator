@@ -10,37 +10,37 @@ function generateMarkdown(data) {
   data.license = licensebadges[data.license];
 
   return `# ${data.title}
-    ${data.license}
+${data.license}
 
-    ## Description
-    ${data.description}
+## Description
+${data.description}
 
-    ##Table of Contents
-    [Install](#Install)
-    [Use](#Use)
-    [License](#License)
-    [Contribute](#Contribute)
+##Table of Contents
+* [Install](#Install)
+* [Use](#Use)
+* [License](#License)
+* [Contribute](#Contribute)
 
-    ## Install
-    Install dependencies by runnning the following:
-    \`${data.install}\`
+## Install
+Install dependencies by runnning the following:
+\`${data.install}\`
 
-    ## Use
-    ${data.use}
+## Use
+${data.use}
 
-    ## Contribute
-    ${data.contribute}
+## Contribute
+${data.contribute}
 
-    ## Tests
-    To test, run the following:
-    \`${data.tests}\`
+## Tests
+To test, run the following:
+\`${data.tests}\`
 
-    ## License
-    This project is covered by the ${data.license} license.
+## License
+This project is covered by the ${data.license} license.
 
-    ##Questions
-    Any questions? Feel free to reach out to me at my Github: ${data.github} or via my email ${data.email}
-  `;
+##Questions
+Any questions? Feel free to reach out to me at my Github: ${data.github} or via my email ${data.email}
+`;
 }
 
 module.exports = generateMarkdown;

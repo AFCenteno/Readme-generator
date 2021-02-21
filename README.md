@@ -5,10 +5,10 @@
 Generate readme.md files
 
 ## Table of Contents
-[Install](#Install)
-[Use](#Use)
-[License](#License)
-[Contribute](#Contribute)
+* [Install](#Install)
+* [Use](#Use)
+* [License](#License)
+* [Contribute](#Contribute)
 
 ## Install
 Install dependencies by runnning the following:
